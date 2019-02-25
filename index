@@ -1,0 +1,5 @@
+
+new BScroll(document.getElementById('wrapper'),{
+    scrollX:true,
+    eventPassthrough:'vertical' //忽略竖直方向的滚动
+})
